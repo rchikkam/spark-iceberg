@@ -27,4 +27,3 @@ if [ -f "$filename" ]; then
 else
     curl https://repo1.maven.org/maven2/org/apache/iceberg/iceberg-aws-bundle/${ICEBERG_VERSION}/${filename} -o ${filename}
 fi
-

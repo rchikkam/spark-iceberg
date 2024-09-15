@@ -29,5 +29,5 @@ By creating some tables and views on top of these tables, you should be able to 
 
 
 It is necessary to download the dependencies once before any docker compose action
-
+    cd spark/jars
     ./download-jars.sh
